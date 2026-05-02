@@ -1,0 +1,27 @@
+{
+  "name": "cosmic-template",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "~54.0.33",
+    "expo-status-bar": "~3.0.9",
+    "expo-sensors": "~14.0.2",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-reanimated": "^3.10.0",
+    "@shopify/react-native-skia": "^1.7.7",
+    "culori": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "~19.1.0",
+    "@types/culori": "^4.0.1",
+    "typescript": "~5.9.2"
+  },
+  "private": true
+}
