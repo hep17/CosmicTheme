@@ -1,17 +1,14 @@
 /**
- * Cosmic Theme — Public API
+ * Cosmic Theme -- Public API
  *
- * Bu dosya theme/ klasörünün tek giriş noktasıdır.
- * Tüm import'lar buradan yapılır:
+ * Bu dosya theme/ klasorunun tek giris noktasidir.
+ * Tum import'lar buradan yapilir:
  *
- * ```ts
  * import { COSMIC_NIGHT, COSMIC_DAWN, TOKENS } from './theme';
- * import { hex2oklch, interpolateOklch }        from './theme';
- * import { contrastRatio, meetsWCAG_AAA }        from './theme';
- * ```
+ * import { GlassCard } from './theme';
  */
 
-// ─── COLORS ──────────────────────────────────────────────────────────────────
+// COLORS
 export {
   COSMIC_NIGHT,
   COSMIC_DAWN,
@@ -24,11 +21,11 @@ export type {
   CosmicTheme,
 } from './colors';
 
-// ─── TOKENS ──────────────────────────────────────────────────────────────────
+// TOKENS
 export { TOKENS } from './tokens';
 export type { DesignTokens } from './tokens';
 
-// ─── UTILS: OKLCH ────────────────────────────────────────────────────────────
+// UTILS: OKLCH
 export {
   hex2oklch,
   oklch2hex,
@@ -38,9 +35,19 @@ export {
 
 export type { OklchColor } from './utils/oklch';
 
-// ─── UTILS: CONTRAST ─────────────────────────────────────────────────────────
+// UTILS: CONTRAST
 export {
   contrastRatio,
   meetsWCAG_AAA,
   meetsWCAG_AA,
 } from './utils/contrast';
+
+// COMPONENTS
+export { GlassCard } from './components/GlassCard';
+export type {
+  GlassCardProps,
+  GlassCardPadding,
+  GlassCardRadius,
+  GlassCardIntensity,
+  GlassCardVariant,
+} from './components/GlassCard';
