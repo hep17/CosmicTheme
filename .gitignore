@@ -39,3 +39,10 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# TypeScript build artifacts
+*.tsbuildinfo
+theme/**/*.js
+theme/**/*.js.map
+theme/**/*.d.ts.map
+!theme/**/*.config.js

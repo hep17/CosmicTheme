@@ -51,3 +51,22 @@ export type {
   GlassCardIntensity,
   GlassCardVariant,
 } from './components/GlassCard';
+
+// STARS COMPONENT
+export { Stars } from './components/Stars';
+export type {
+  StarsProps,
+  StarsDensity,
+  StarsVariant,
+  StarsSpeed,
+} from './components/Stars';
+
+// MOOD ENGINE
+export { generateEyebrow } from './mood/generator';
+export type {
+  MoodContext,
+  EyebrowResult,
+  EyebrowTone,
+  DayBucket,
+  TimeOfDay,
+} from './mood/types';
